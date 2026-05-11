@@ -1,7 +1,7 @@
 """
 Classical Decoders
 ==================
-1. MWPM-approximation  (nearest-defect greedy matching — O(n²) pure numpy)
+1. MWPM-approximation  
 2. Union-Find          (Delfosse & Nickerson linear-time decoder)
 
 Both operate on the syndrome vector and return a predicted logical label.
