@@ -54,7 +54,7 @@ def _pairwise_dist(pos):
 
 class GreedyMWPM:
     """
-    Greedy nearest-defect matching.
+   
     For each violated syndrome bit, find its nearest unmatched partner
     and pair them. Corrects errors along the shortest path and checks
     whether the net correction commutes with logicals.
