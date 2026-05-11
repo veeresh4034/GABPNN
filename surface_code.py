@@ -1,5 +1,5 @@
 """
-Rotated Surface Code Simulator — Final Validated Construction
+Rotated Surface Code Simulator 
 =============================================================
 Distance-d rotated surface code. Bulk weight-4 plaquettes on a
 checkerboard pattern; boundary weight-2 stabilisers added greedily
