@@ -1,4 +1,4 @@
-"""Generate all paper figures from simulation results."""
+"""figures from simulation results"""
 import numpy as np
 import matplotlib
 matplotlib.use('Agg')
@@ -98,7 +98,7 @@ plt.savefig(OUT+'fig3_improvement.png', bbox_inches='tight')
 plt.close()
 print('Fig 3 done')
 
-# ── Figure 4: Asymmetric channel at p=0.05 (bar chart over eta) ──────────────
+# ── Figure 4: Asymmetric channel at p=0.05 ──────────────
 ETA_VALS = [1,10,100,1000]
 p_idx    = list(P).index(0.05) if 0.05 in P else 5
 
