@@ -3,7 +3,7 @@ Hybrid Neural-Network Decoder
 ==============================
 Architecture: Graph-Augmented Belief-Propagation Neural Network (GABPNN)
 
-Novel contributions:
+contributions:
   1. Syndrome graph features (node degree, adjacency weights) computed via
      a single BP-inspired message-passing pre-processing step.
   2. Channel-conditioning: bias indicator concatenated to every feature vector,
