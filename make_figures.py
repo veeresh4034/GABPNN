@@ -6,9 +6,9 @@ import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
 from matplotlib.gridspec import GridSpec
 
-r   = np.load('/home/claude/qec/results.npz', allow_pickle=True)
+r   = np.load('/home/qec/results.npz', allow_pickle=True)
 P   = r['p_values']
-OUT = '/home/claude/qec/'
+OUT = '/home/qec/'
 
 COLORS = {'mwpm':'#E63946','uf':'#F4A261','hybrid':'#2A9D8F'}
 LABELS = {'mwpm':'MWPM','uf':'Union-Find','hybrid':'GABPNN (Ours)'}
