@@ -2,14 +2,14 @@
 
 ## Overview
 
-This repository contains a lightweight research framework for simulating and decoding rotated surface codes using both classical and neural-network-based decoding algorithms.
+This repository contains a  framework for simulating and decoding rotated surface codes using both classical and neural-network-based decoding algorithms.
 
 The project implements:
 
 * A validated rotated surface code simulator
 * Exact Minimum-Weight Perfect Matching (MWPM) decoding
 * Classical baseline decoders
-* A novel hybrid neural decoder:
+* A new hybrid neural decoder:
   **GABPNN (Graph-Augmented Belief-Propagation Neural Network)**
 
 The implementation is written primarily in pure Python with NumPy/SciPy and is designed to be:
@@ -17,7 +17,6 @@ The implementation is written primarily in pure Python with NumPy/SciPy and is d
 * Lightweight
 * Reproducible
 * Easy to extend
-* Suitable for research experimentation
 * Independent of heavy ML frameworks such as PyTorch
 
 ---
@@ -63,13 +62,13 @@ Logical operators:
 
 ---
 
-## 2. Exact MWPM Decoder
+## 2. MWPM Decoder
 
 Implemented in `exact_mwpm_nx.py`.
 
 Features:
 
-* Exact Minimum-Weight Perfect Matching
+* Minimum-Weight Perfect Matching
 * Uses NetworkX Blossom matching algorithm
 * Boundary-aware matching
 * Topological parity tracking
