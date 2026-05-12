@@ -217,44 +217,7 @@ extractor = BPFeatureExtractor(code)
 
 ---
 
-# Research Motivation
 
-Quantum error correction is essential for fault-tolerant quantum computing. Rotated surface codes remain among the most practical stabilizer-code architectures due to:
-
-* Local stabilizer measurements
-* High threshold behavior
-* Scalable planar layouts
-* Compatibility with superconducting qubits
-
-Traditional decoding algorithms such as MWPM provide strong performance but may become computationally expensive for large-scale systems.
-
-This project explores whether graph-enhanced neural architectures can:
-
-* Improve decoding efficiency
-* Learn syndrome structure
-* Adapt to biased noise channels
-* Generalize across operating regimes
-
-while remaining computationally lightweight.
-
----
-
-# Potential Research Extensions
-
-This framework can be extended toward:
-
-* Quantum LDPC decoding
-* Hypergraph-product codes
-* Belief propagation on Tanner graphs
-* FPGA-based decoder acceleration
-* Real-time syndrome processing
-* Reinforcement-learning-based decoders
-* Fault-tolerant syndrome extraction
-* Circuit-level noise simulations
-* Monte Carlo threshold estimation
-* Distributed decoding architectures
-
----
 
 # Example Workflow
 
@@ -294,26 +257,3 @@ This may contain:
 
 ---
 
-# Citation
-
-If you use this work in research, please cite appropriately.
-
-Example BibTeX template:
-
-```bibtex
-@article{gabpnn2026,
-  title={GABPNN: Graph-Augmented Belief-Propagation Neural Network for Quantum Error Correction},
-  author={Kuruba, Veeresh and collaborators},
-  journal={TBD},
-  year={2026}
-}
-```
-
----
-
-# Future Improvements
-
-Planned enhancements include:
-
-* GPU acceleration
-* PyTor
