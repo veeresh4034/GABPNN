@@ -1,5 +1,5 @@
 import numpy as np, time, sys
-sys.path.insert(0,'/home/claude/qec')
+sys.path.insert(0,'/home/qec')
 from surface_code import SurfaceCode
 from classical_decoders import GreedyMWPM, UnionFind
 from hybrid_decoder import HybridGABPNN
@@ -67,5 +67,5 @@ save_d = dict(p_values=P, distances=DS, eta_values=ETA,
     **{f'sym_{dec}_{d}':SYM[dec][d] for dec in ['mwpm','uf','hybrid'] for d in DS},
     **{f'a{eta}_{dec}':ASYM[eta][dec] for eta in ETA for dec in ['mwpm','uf','hs','ha']},
     **TIM)
-np.savez('/home/claude/qec/results.npz',**save_d)
+np.savez('/home/qec/results.npz',**save_d)
 print('SAVED',flush=True)
